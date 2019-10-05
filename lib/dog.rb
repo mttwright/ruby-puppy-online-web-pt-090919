@@ -2,14 +2,10 @@
 require "pry"
 
 class Dog
-  
-  attr_reader :name
-  
   @@all = []
   
   
-  def initialize(name)
-    @name = name
+  def initialize
     @@all.push(self)
   end
   
