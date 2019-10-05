@@ -7,7 +7,6 @@ class Dog
   
   def initialize
     @@all.push(self)
-    binding.pry
   end
   
   def self.all
