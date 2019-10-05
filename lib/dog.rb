@@ -21,5 +21,3 @@ class Dog
   end
   
 end
-
-ham = Dog.new
