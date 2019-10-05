@@ -3,7 +3,7 @@ require "pry"
 
 class Dog
   @@all = []
-  
+  attr_reader :name
   
   def initialize(name)
     @@all.push(self)
@@ -16,7 +16,7 @@ class Dog
   
   def self.print_all
     @@all.each do |dog|
-      puts "#{dog}"
+      puts "#{dog.name}"
     end
   end
   
