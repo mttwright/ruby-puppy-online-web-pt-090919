@@ -5,7 +5,7 @@ class Dog
   @@all = []
   
   
-  def self.new
+  def initialize
     @@all.push(self)
   end
   
